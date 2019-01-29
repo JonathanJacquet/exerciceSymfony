@@ -122,4 +122,9 @@ class Article
 
         return $this;
     }
+
+    public function fiftyCaractere()  {
+      $contents = substr($content,0, 50);
+      return $contents;
+    }
 }

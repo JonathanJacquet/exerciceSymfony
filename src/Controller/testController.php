@@ -1,5 +1,4 @@
 <?php
-// src/Controller/LuckyController.php
 namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
@@ -17,7 +16,7 @@ class testController extends AbstractController {
         );
       }
       /**
-       * @Route("/article/{id}", name="app_single", requirements={"id"="\d+"})
+       * @Route("/article/{id}", name="app_article", requirements={"id"="\d+"})
        */
        public function article ($id = 1)  {
          echo"Vous êtes sur la page concernant la référence de produit : ";
