@@ -6,7 +6,9 @@
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
-        {% block body %}{% endblock %}
+        {% block body %}
+        {{ id }}
+        {% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
 </html>
