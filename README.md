@@ -9,6 +9,9 @@ Chaque  exercice permettait de découvrir un composant du framework :
 * Templating / Twig
 * Gestion de la sécurité
 
+## Langages & technologies utilisés
+
+![SYMFONY](https://img.shields.io/badge/-SYMFONY-BLACK.svg)
 ![PHP7](https://img.shields.io/badge/-PHP7-green.svg)
 ![SQL](https://img.shields.io/badge/-SQL-yellow.svg)
 ![HTML5](https://img.shields.io/badge/-HTML5-orange.svg)
